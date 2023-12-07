@@ -1,0 +1,340 @@
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.mr-3, .mx-3 {
+    margin-right: 1rem!important;
+}
+.home-modal .p-4 {
+    padding: 1.5rem !important;
+}
+.home-modal .form-control::placeholder { 
+    color: #777;
+}
+.home-modal form label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: #212529;
+}
+.home-modal button.close{
+        background: #fff;
+        border-radius: 17px;
+        position: relative;
+        font-size: 51px;
+        margin: -17px 0px -34px 0px;
+        float: right;
+        z-index: 1 !important;
+    }
+.home-modal .modal-content {
+    width:100%;
+  }
+
+.home-modal .modal-dialog-centered {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    min-height:calc(100% - (.5rem * 2));
+  }
+  
+  @media (min-width: 576px) {
+    .home-modal .modal-dialog-centered {
+      min-height:calc(100% - (1.75rem * 2));
+    }
+  }
+/* .home-modal .modal-dialog {
+    transform: translate(0, -50%);
+    top: 20%;
+    left: 11%;
+    margin: 0 auto;
+} */
+.home-modal .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+.home-modal .col-md-12{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.home-modal .modal-dialog {
+    background: none;
+    margin-left: 21%;
+}
+.detail-modal .modal-content {
+    width: 60% !important;
+    left: 22%;
+}
+ /* Media Query for Mobile Devices */
+ @media only screen and (max-width : 480px) { 
+    .home-modal .modal-dialog{
+        margin-left: 0% !important;
+    }
+    .d-flex {
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: inline-block !important;
+    }
+  
+    .home-modal .mr-3, .mx-3 {
+        margin-right: 0px !important;
+    }
+    .modal-dialog{height: auto;}
+
+    .detail-modal .modal-content {
+        width: 100% !important;
+        left: auto;
+    }
+}
+@media only screen and (max-width : 320px) { 
+    .home-modal .modal-dialog{
+        margin-left: 0% !important;
+    }
+   
+    .d-flex {
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: inline-block !important;
+    }
+    .home-modal .mr-3, .mx-3 {
+        margin-right: 0px !important;
+    }
+
+    .detail-modal .modal-content {
+        width: 100% !important;
+        left: auto;
+    }
+   
+ }
+.home-modal .modal-content {
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+}
+
+.home-modal .modal-content .modal-body {
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 15px;
+    -webkit-box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.9);
+}
+
+.home-modal .modal-content .modal-body h2 {
+    font-size: 18px;
+}
+
+.home-modal .modal-content .modal-body p {
+    color: #777;
+    font-size: 14px;
+}
+
+.home-modal .modal-content .modal-body h3 {
+    color: #000;
+    font-size: 22px;
+}
+
+.home-modal .modal-content .modal-body .promo-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+}
+
+.home-modal .cancel {
+    color: gray;
+    font-size: 14px;
+}
+
+.home-modal .btn-primary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home-modal .form-control {
+    border: transparent;
+    border: 1px solid #ccc;
+}
+
+.home-modal .form-control:active,
+.form-control:focus,
+.form-control:hover {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.home-modal .btn {
+    border-radius: 4px;
+    border: none;
+}
+
+.home-modal .btn:active,
+.btn:focus {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.home-modal .bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-modal .logo img {
+    width: 70px;
+}
+
+.home-modal .custom-note {
+    color: #999;
+}
+
+.home-modal .custom-note a {
+    color: #555;
+    font-weight: 900 !important;
+}
+
+/* extra css*/
+
+
+/* Measure scrollbar width for padding body during modal show/hide */
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+}
+
+/* Scale up the modal */
+@include media-breakpoint-up(sm) {
+
+    /* Automatically set modal's width for larger viewports */
+    .modal-dialog {
+        max-width: $modal-md;
+        margin: $modal-dialog-margin-y-sm-up auto;
+    }
+
+    .modal-dialog-scrollable {
+        max-height: calc(100% - #{$modal-dialog-margin-y-sm-up * 2});
+
+        .modal-content {
+            max-height: calc(100vh - #{$modal-dialog-margin-y-sm-up * 2});
+        }
+    }
+
+    .modal-dialog-centered {
+        min-height: calc(100% - #{$modal-dialog-margin-y-sm-up * 2});
+
+        &::before {
+            height: calc(100vh - #{$modal-dialog-margin-y-sm-up * 2});
+        }
+    }
+
+    .modal-content {
+        @include box-shadow($modal-content-box-shadow-sm-up);
+    }
+
+    .modal-sm {
+        max-width: $modal-sm;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+
+    .modal-lg,
+    .modal-xl {
+        max-width: $modal-lg;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .modal-xl {
+        max-width: $modal-xl;
+    }
+}
+
+.mobileShow1 {display: none;} 
+
+  /* Smartphone Portrait and Landscape */ 
+
+
+  @media only screen and (max-width: 600px) {
+    .mobileShow1 {display: inline;}
+}
+
+
+
+    /* The Modal (background) */
+    .arshPopup {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 9999; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .arshPopup-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 70%;
+      border-radius: 7px;
+      position: absolute;
+      left:17%;
+    }
+    
+    /* The Close Button */
+    .arshClose {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      padding-right: 10px;
+        position: relative;
+        z-index: 99999;
+    }
+    
+    .arshClose:hover,
+    .arshClose:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .content-text{ margin-top:-42px; max-height:100% !important}
+    
+  @media only screen and (max-width: 480px)  {
+        
+        .content-text{ margin-top:5px;}
+        .arshPopup-content { width: 100%; left:1%;     }
+    }
+
+@media only screen and (max-width: 767px) {
+    <!-- For Tab -->
+}
+    

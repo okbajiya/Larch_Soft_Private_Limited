@@ -1,0 +1,873 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+a:focus {outline:none !important}
+a:active {outline:none !important}
+a:selected {outline:none !important}
+
+
+
+
+
+.lead-text-paragraf{text-align:center; font-size:18px; color:#333; font-weight:500;}
+.lead-text-paragraf span{color:#b71c1c;}
+.lead-text-paragraf p{padding: 30px 0 10px 0; font-family: Visby CF Demi, sans-serif; font-size:16px; text-transform: capitalize;}
+.lead-text-paragraf-heading{color:#FFF; font-size:40px !important; position: relative; left: 0px; top:10px; right:10px; /*bottom:70px;*/ z-index:1; text-align:center; moz-transform: rotate(-45.0deg);  /* FF3.5+ */ -o-transform: rotate(-45.0deg);  /* Opera 10.5 */  -webkit-transform: rotate(-45.0deg);}
+.lead-text-paragraf a{background-color:#e5e5e5; font-size:10px; text-transform: uppercase; color: #333; text-decoration: none !important; padding:7px; outline:none !important;}
+.detailHolder:hover .lead-text-paragraf-bx {background-color:#b71c1c; color:#FFF;}
+/*.detailHolder:hover .lead-text-paragraf a:hover{background-color:#b71c1c; color:#FFF;}*/
+.detailHolder  a:hover{background-color:#b71c1c; color:#FFF; text-decoration:none;}
+.detailHolder p{color:#333;}
+
+.lead-text-paragraf-bx{background-color:#3d3d3d; width:80px; height:80px !important; margin:0 auto; color:#FFF;  -moz-transform: rotate(45.0deg);  /* FF3.5+ */ -o-transform: rotate(45.0deg);  /* Opera 10.5 */  -webkit-transform: rotate(45.0deg);  /* Saf3.1+, Chrome */ border-radius:10px; position: relative;
+top: -12px;}
+
+.lead-text-paragraf-bx:hover{background-color:#b71c1c; width:80px; height:80px !important; margin:0 auto; color:#FFF;  -moz-transform: rotate(45.0deg);  /* FF3.5+ */ -o-transform: rotate(45.0deg);  /* Opera 10.5 */  -webkit-transform: rotate(45.0deg);  /* Saf3.1+, Chrome */ border-radius:10px; }
+.box-pointer{height:10px; width:10px; background-color:#000; border-radius:50%; position:absolute; position: absolute; right: -71px; top: -70px;}
+.than-you{text-align:center; font-size:16px; margin-bottom:40px;  font-weight:normal !important;}
+
+.c-hi {
+position: relative;
+width: 100%;
+overflow: hidden;
+height: 400px !important;
+}
+
+
+.tag-line{font-size:16px; text-align:right; padding:0 12px 0 0; font-family: Visby CF Demi, sans-serif;}
+.tag-line-one{font-size:16px; text-align:right; padding:0 12px 0 0; font-family: Visby CF Demi, sans-serif; position:absolute;}
+
+/*--------new changes----------------*/
+
+.stickToBottom span {margin: 8px 0 0 0; float: none;}
+
+.stickToBottom 
+{
+padding: 10px 0px;
+}
+.imgBox:hover .lg-overlay {
+background: rgba(0,0,0,0.5);
+top: 67% !important;
+}
+
+.padR01  h3{text-align:right;}
+.padR01  span {float:right}
+
+/*--------new changes----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.piller .popUpImg{ border:solid 1px #d8d8d8;}
+.headerWpr{ box-shadow:0 1px 5px #e2e0e0; position: relative}
+.sitLogo {background: url("../../index.html") no-repeat scroll 0 -159px rgba(0, 0, 0, 0);
+display: inline-block;height: 42px; width: 194px;}
+/*.loginBlock {color: #999;float: right;font-size: 10px;padding: 5px 0 0;text-align: right;}*/
+.loginBlock ul{ list-style: none}
+.loginBlock li {float: left}
+.loginBlock li a {color: #bdbdbd;text-decoration: none}
+.loginBlock span.devier {font-family: Visby CF Demi, sans-serif;padding: 0 8px}
+.downArrow {background: url("../../index.html") no-repeat scroll 0 -22px rgba(0, 0, 0, 0);display: inline-block;height: 8px;margin-left: 6px;width: 8px}
+
+.allCityDropDown {display: none;padding: 15px 9px 0 0;position: absolute;right: -15px;top: 15px;width: 530px;z-index: 11}
+
+.allCityDD{background:#fff;border: 1px solid #ccc;box-shadow: 0 9px 13px -4px rgba(0, 0, 0, 0.75);font-size: 12px;text-align: left;text-transform: none;}
+
+.allIndiaArrow {background: url("../../index.html") no-repeat scroll 0 0 rgba(0, 0, 0, 0);display: block;height: 8px;position: absolute;right: 38px;top: 8px; width: 14px}
+
+.allCityDropDownInner {background:#fff;margin: 0; padding: 5px 6px 3px 15px}
+.dropDownheading {border-bottom: 1px solid #e5e5e5;color: #545050;font-family: Visby CF Demi, sans-serif; font-size: 14px;margin: 0;padding: 0 0 8px}
+.dropDownheading img {height: 11px;margin: 0 5px 0 0;padding: 0;vertical-align: 0;width: 16px}
+.citiesSec {margin: 0;padding: 8px 0 0 4px}
+.citiesSec h4 {color: #666;font-size: 12px;font-weight: bold;margin: 15px 0 0;padding: 0 0 2px}
+.citiesSec h4:first-child {margin-top: 0}
+.citiesList {margin: 0 0 5px;padding: 2px 0 0}
+.citiesList ul {list-style-type: none;margin: 0;padding: 0}
+.citiesList ul li {float: left;margin: 0;padding: 0 0 3px;width: 122px}
+.citiesList ul li a {color: #797676;display: block;font-size: 12px;font-weight: normal;margin: 0;padding: 0}
+
+.mainLinks {float: right;font-family: Visby CF Demi, sans-serif;font-size: 14px;padding-bottom: 10px;padding-top: 18px}
+.mainLinks > ul {float: left}
+.mainLinks ul li:first-child {padding-left: 0}
+.mainLinks ul li {float: left;list-style-type: none;padding-left: 33px}
+.posRl {position: relative}
+.mainLinks ul li {float: left;list-style-type: none;padding-left: 33px}
+.mainLinks ul li a {color: #000;font-family: Visby CF Demi, sans-serif;text-decoration: none; font-size: 14px}
+
+.mainLinks .subDropDown ul { padding: 0; padding-top: 6px}
+.mainLinks .subDropDown li {clear: both;float: none;margin: 0;padding: 0}
+.mainLinks .subDropDown li a {color: #666;display: block;font-family: Visby CF Demi, sans-serif; height: 32px;line-height: 30px;padding: 0 19px}
+
+.subDropDown {display: none;left: 15px;padding: 6px 0;position: absolute;top: 15px;width: 178px;z-index: 11; padding-top: 15px}
+.dropDownEffect{background-color:#fff;border: 1px solid #ccc;box-shadow: 0 9px 13px -4px rgba(0, 0, 0, 0.75);text-align: left;font-size: 14px;}
+
+.adviceLink{ width: 250px}
+.adviceArrow {background: url("../../index.html") no-repeat scroll 0 0;
+display: block;height: 8px;left: 20px;position: absolute;top: 8px;width: 14px;}
+.newTagSpan {background: transparent url("../../index.html") no-repeat scroll left top !important;display: inline-block;
+height: 21px;left: 20px;position: absolute;top: -15px;width: 25px}
+.subMenuArrow {background: url("../../index.html") no-repeat 0 0; display: block;height: 8px;
+left: 20px;position: absolute;top:8px;width: 14px}
+.dropdownLink:hover .subDropDown{ display: block}
+.dropdownLink:hover .allCityDropDown{ display: block}
+.moreJobs{ text-align: center;}
+.moreJobs h2{ text-transform: uppercase; color: #e1e1e1; font-size: 65px}
+.moreJobs p{ color: #666; line-height: 26px}
+.heroBanner{ height: 178px;margin:50px 0 0; }
+.banner1{background:#a6ce39 url(../../index.html) center top no-repeat; background-color:#a6ce39; height: 300px;}
+.banner2{background:#f6f4ef url(../../index.html) left top repeat-x;background-size: cover;}
+.banner3{background:#f6f4ef url(../../index.html) center top repeat-x;background-size: cover;}
+.banner4{background:#f6f4ef url(../../index.html) center 53% no-repeat;background-size: cover;}
+.banner5{background:#f6f4ef url(../../index.html) left top repeat-x;background-size: cover;}
+.banner6{background:#f6f4ef url(../../index.html) center top no-repeat;background-size: cover;}
+
+.banner10{text-align:center; font-size:24px; color:#333; padding-top:234px; font-family: Visby CF Demi, sans-serif;}
+
+.mainLinks .subDropDown li:hover a {background-color: #f8f8f8;}
+.navHeight{ height: 48px; border-bottom: solid 1px #ececec;}
+.navWpr{ }
+.tabNav{ list-style: none; padding: 0; margin: 0;}
+.tabNav li{ float: left; font-size: 14px; line-height: 42px; padding: 0 33px; border-bottom:solid 5px #f7f7f7}
+.tabNav li a{color: #999}
+.tabNav li a:hover{ text-decoration: none}
+.tabNav li.active{border-bottom:solid 5px #b49141}
+.tabNav li.active a{ color:#333;}
+.breadCrum{ font-size: 12px; margin-top: 20px}
+.breadCrum a{ color: #333}
+
+.profileHolder{ margin-top: 33px}
+.detailHolder h3{ text-transform: uppercase; margin-top: 15px; height: 50px}
+.detailHolder h3 span {color: #666;display: block;font-size: 14px;margin-top: 4px}
+.detailHolder a{ color: #333; text-decoration: underline;} 
+.headLine{ font-weight: normal; font-size: 24px; margin-top:23px; margin-bottom: 10px; text-transform: uppercase;}
+.marBt30{ margin-bottom: 30px}
+.subLine{font-size: 16px; color: #666; line-height:28px; margin-bottom: 20px; text-align: justify;}
+.imgBox{ height: 301px; cursor: pointer; overflow: hidden;}
+.imgBox h3{font-size: 22px; color: #fff; text-transform: uppercase; margin-bottom: 3px; text-shadow:1px 0px 1px #000;}
+.imgBox p{ color: #fff; margin-bottom: 15px;text-shadow:1px 0px 1px #000;}
+.imgBox img{ transform:scale(1); transition:all 0.4s;}
+.grayBg{ background:#f7f7f7}
+
+
+.lifeAtMb .profileHolder{ margin-top: 22px}
+.lifeAtMb .detailHolder h3{ line-height: 31px; margin-bottom: 25px}
+.lifeAtMb .detailHolder p{ margin-bottom: 25px}
+
+.whyWork .profileHolder{ margin-top: 22px}
+.whyWork .detailHolder h3{ height: 32px}
+
+/*about us*/
+.aboutus .headLine{ margin-top: 40px; border-bottom:solid 1px #e2e2e2; margin-bottom: 0}
+.aboutus .headLine span{ border-bottom: solid 5px #c63b2c; display: inline-block;padding-bottom: 8px}
+.aboutus .subLine{ margin: 15px 0; font-size: 14px; color: #333}
+
+/*about us end*/
+
+.secBottom h3{ margin-top: 45px; text-transform: uppercase}
+.secBottom h3 span{ color: #b49141}
+.secBottom p{ color: #666; margin:15px 0 20px}
+.secBottom img{width: 100%}
+
+
+
+.padR0{ padding-right: 0}
+.redBt{background:#b49141;color: #fff;display: inline-block;font-size: 14px;width: 110px;height: 32px;line-height: 32px;text-align: center;border-radius: 2px}
+.redBt:hover, .redBt:active{ text-decoration: none; color: #fff; background: #900b11}
+.sm-redBt{background:#b49141;color: #fff;display: inline-block;float: right;font-size: 16px;padding: 7px 18px 8px;}
+.bt2{ width: 110px;height: 32px;line-height: 32px;text-align: center;margin-top: 29px;float: right;}
+
+.btn-primary {background-color: #b49141;border: none}
+.btn-primary:hover{ background-color: #900b11; }
+
+.pL0{ padding-left: 0}
+.pR10{ padding-right: 10px}
+.tabs ul{ padding: 0; list-style: none; margin-top: 18px}
+.tabs li{ color: #666; border-bottom: solid 1px #d7d7d7; padding: 11px 0 11px 48px; position: relative; cursor: pointer; background-image: url(../images/careerSprite.png); background-repeat: no-repeat}
+
+.tabs li.allopening{ background-position: 9px -766px}
+.tabs li.allopening.active{ background-position: 9px -817px}
+
+.tabs li.callCenter{ background-position: 9px -980px}
+.tabs li.callCenter.active{ background-position: 9px -1036px}
+
+.tabs li.content{ background-position: 9px -870px}
+.tabs li.content.active{ background-position: 9px -917px}
+
+.tabs li.alliances{ background-position: 9px -1090px}
+.tabs li.alliances.active{ background-position: 9px -1138px}
+
+.tabs li.finance{ background-position: 9px -155px}
+.tabs li.finance.active{ background-position: 9px -204px}
+.tabs li.hr{ background-position: 9px -257px}
+.tabs li.hr.active{ background-position: 9px -306px}
+.tabs li.marketing{ background-position: 9px -357px}
+.tabs li.marketing.active{ background-position: 9px -401px}
+.tabs li.product{ background-position: 9px -558px}
+.tabs li.product.active{ background-position: 9px -607px}
+.tabs li.sales{ background-position: 9px -457px}
+.tabs li.sales.active{ background-position: 9px -506px}
+.tabs li.developer{ background-position: 9px -660px}
+.tabs li.developer.active{ background-position: 9px -705px}
+
+.tabs li:after{content: ""; border-color:transparent; border-style: solid; border-width: 6px; border-left-color:#b2b2b2; display: inline-block; position: absolute; right: 15px; top: 15px; transition:all 0.2s;}
+.tabs li.active{ color: #333; font-weight: bold;}
+.tabs li.active:after{ border-left-color: #333}
+.jobCategory{ padding-right: 0}
+.jobHeadline {
+    font-size: 24px;
+    font-weight: normal;
+    color: #222;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    padding-left: 8px;
+    text-transform: uppercase;
+}
+.jobListing{ margin-top: 14px; height: 508px; border-left: solid 1px #d7d7d7; position: relative; overflow: hidden;}
+
+.jobWpr > div{ position: absolute; left: -100%; width: 100%; top: 0}
+.jobListing .active{ transform:scale(1); opacity: 1; height: auto}
+#job1{ left: 0}
+.jobTitle{ font-size: 14px;padding:8px 0 0;}
+.jobTitle span{ font-size: 14px; color: #b49141;}
+.jobDetails{ list-style: none; padding: 0; margin: 0; margin-bottom: 10px}
+.jobDetails li {
+    display: inline;
+    margin-right: 10px;
+    color: #000;
+    font-weight: 500;
+}
+.jobSkill span {
+    display: inline-block;
+    background: #b49141 !important;
+    margin-right: 5px;
+    padding: 2px 6px;
+    font-size: 10px;
+    color: #fff !important;
+}
+
+.redBt:hover {
+    background: #000;
+}
+
+.jobSkill span{ display: inline-block; background: #e9e9e9; margin-right: 5px; padding: 2px 6px; font-size: 10px; color: #999}
+
+
+.stickToBottom{ position: absolute; bottom: 5px; z-index: 1; transition:all 0.3s; width: 100%}
+.jobRow{ position: relative; float: left; width: 94%; padding-left: 8px; padding-bottom: 8px; margin-bottom: 27px; cursor: pointer;background: #e9f1ff;}
+
+.jobRow:hover{ background-color: #f7f7f7; border-radius: 2px}
+.imgBox:hover .lg-overlay{background:rgba(0,0,0,0.5); top: 70%}
+
+.lg-overlay{background:rgba(0,0,0,0.4);height: 100%; transition:all 0.3s; position: absolute; width: 100%; height: 100%; left: 0; top: 0}
+
+.boxRow, .smBox{ margin-bottom: 30px}
+
+.modal-content{ border-radius:0; box-shadow: none;}
+.modal-header{ border: none}
+
+.carousel-control.left,.carousel-control.right{ background-image: none}
+
+.carousel-control.left{ opacity: 1; background-color:#d4d1d2; left: -82px; width: 58px; height: 58px; top: 36%}
+.carousel-control.right{ opacity: 1; background-color:#d4d1d2; right: -82px; width: 58px; height: 58px; top: 36%}
+
+.carousel-control.left span:after{ content: ""; border-style: solid; border-color: transparent; border-width: 13px; border-right-color:#b3afb0; display: inline-block; position: absolute; top: 16px; left: 7px}
+.carousel-control.right span:after{ content: ""; border-style: solid; border-color: transparent; border-width: 13px; border-left-color:#b3afb0; display: inline-block; position: absolute; top: 16px; right: 7px}
+
+.fl{ float: left;}
+.fr{ float: right;}
+.jobPopUp .modal-body{ text-align: left; padding: 0 45px 40px 39px}
+.jobPopUp .modal-header{ padding:8px 15px}
+.uiTitle{ background: #f7f7f7; font-size: 16px; padding: 5px 15px; margin-bottom: 20px}
+.jobPost{ margin-top: 24px; font-size: 14px; margin-bottom: 20px}
+.postDate{ margin-left: 40px}
+.jobRequirement{ margin-top: 30px; height: 300px}
+#tech-ui-developer .jobRequirement{ height: 217px}
+#android-developer .jobRequirement{ height: 230px}
+.jobRequirement h3{ font-size: 14px; font-weight: bold}
+.jobRequirement p{ color: #666}
+.jobContainer{display: none;}
+
+.contactEmail{ margin-top: 30px}
+.contactEmail strong{color:#b49141}
+.contactEmail .email{ color: #333; }
+.contactEmail .email:hover{ color: #b49141 !important;}
+.email{color: #333; text-decoration: underline}
+.skills{ list-style: none; padding-left:18px}
+.skills li{ position: relative; line-height: 24px; text-align:left;}
+.skills li ul {padding-left:20px;}
+.skills li ul li{ font-size:14px; color:#666; margin-bottom:0px;}
+.skills li:before{ content: ""; border-style: solid; border-color: transparent; border-width: 5px; border-left-color:#666; display: inline-block; position: absolute; left: -12px; top: 7px;}
+.disc{ font-size: 11px}
+.popUpDetail ul{ list-style: none}
+.popUpDetail p strong{ color: #333}
+.fixedHeight{ height: 48px}
+.fixed{ position: fixed; width: 100%;z-index: 888; box-shadow: 0 0 4px #999; transform:translate(0px, -25%);opacity: 0}
+.fixed.in{transform:translate(0px, 0px); top: 0;opacity: 1; transition:all 0.3s;}
+.timeLineRow{ margin-bottom: 70px}
+.timeLine{ min-height: 500px; position: relative; margin: 0 auto 0}
+.timeLine:after{ content: ""; border-left: solid 1px #999; height: 100%; position: absolute; top: 0; left: 50%; z-index: -1}
+.timeL-name h3{ text-transform: uppercase;}
+.timeL-tm{ color: #666; line-height: 22px; position: relative; padding-top: 22px}
+.txt-right{ text-align: right;}
+.txt-left{ text-align: left;}
+.pR20{ padding-right: 20px}
+.mT20{ margin-top: 20px}
+.pL40{ padding-left: 40px}
+.rightQuote1{ background: url(../images/careerSprite.png) -5px -13px no-repeat; position: absolute; left: 5px; top: 18px; width: 34px; height: 20px}
+
+.rightQuote2{ background: url(../images/careerSprite.png) -5px -13px no-repeat; position: absolute; left: 10px; top: 17px; width: 34px; height: 20px}
+
+
+
+
+.footerWraper{ margin-top: 50px}
+.footerLinks {background:#4e4e4e;font-size: 13px;padding: 10px 0 14px}
+.serviceHead {color: #ccc;font-size: 14px;padding-bottom: 14px;text-transform: uppercase}
+.subcolumn1 {float: left;padding-right: 16px}
+.footerLinks ul{ padding: 0; margin: 0}
+.footerLinks ul li {padding-bottom: 3px; list-style: none}
+.footerLinks a {color: #d9d9d9;text-decoration: none}
+.pLR0{ padding-left: 0; padding-right: 0}
+.pL0{ padding-left: 0}
+.pR0{ padding-right: 0}
+
+
+
+
+
+
+
+
+.discBlock {color: #ccc;font-size: 13px;line-height: 21px;padding-bottom: 18px}
+.discBlock label {display: block;    font-family: Visby CF Demi, sans-serif;}
+.extBtn ul{ list-style: none; padding: 0; margin: 0}
+.extBtn ul li {color: #ccc;float: left;line-height: 21px;padding-left: 27px}
+.extBtn ul li:first-child {padding-left: 0}
+.extBtn ul li span {display: block;    font-family: Visby CF Demi, sans-serif;}
+.extBtn ul li:first-child span {    font-family: Visby CF Demi, sans-serif;}
+
+.extBtn ul li a {color: #d9d9d9;text-decoration: none}
+.tradeMark {color: #ccc;font-size: 13px;padding-top: 15px; padding-bottom:20px}
+
+.navbar-default{ background:none}
+
+.video-content img{ display: none}
+.video-content video{ width: 800px}
+.modal-body{ text-align: center}
+.modal-title{ text-align: center;}
+.displayImgMobile .modal-body img{ width: 100%; height: 100%}
+.displayPrintImg img{ height: 350px; width: 100%}
+.displayVideoMobile video{ width: 100%!important; height: auto!important}
+
+#radiospace{ margin: 0 auto}
+.imgHolder { border:solid 1px #d8d8d8;}
+.imgHolder img{ width: 100%}
+ul.ambience{ list-style: none; padding: 0; margin: 0; margin-bottom: 15px}
+.ambience li{ padding: 0 0 5px 20px; position: relative;}
+.ambience li:before{content: ""; border-color:transparent; border-style: solid; border-width: 6px; border-left-color:#b2b2b2; display: inline-block; position: absolute; left: 2px; top: 4px}
+.paragraph{ padding-bottom: 20px}
+.paragraph-head{text-align:center; font-size:20px; font-weight:600;     font-family: Visby CF Demi, sans-serif;}
+.paragraph-head span{color:#b71c1c;}
+.lifeAtMb .detailHolder{ min-height: 300px}
+.internationalheading {color: #545050;font-family: Visby CF Demi, sans-serif;font-size: 14px;margin: 0;padding: 10px 0 9px;text-transform: uppercase}
+.whyWork .imgHolder{ border: none;}
+.watchBt {background: #b49141;color: #fff; display: inline-block;font-size: 14px;width: 112px; height: 32px; line-height: 32px; text-align: center;border-radius: 2px;margin:0 0 0 10px}
+.watchBt:hover {background: #ab0d14;color:#fff;text-decoration:none;}
+.peopleweek  {margin:0 0 0 0;height:106px;}
+.peopleweek p{font-size: 14px;font-weight: 600;font-style: normal;line-height: 1.43;color: #303030;padding: 15px 10px 7px 20px;background: #f79022;float: left;width: 85.1%;margin: 37px 0 0 0 !important;height:69px;border-bottom:2px solid #ff0000;}
+.peopleweek i{width:174px;height:101px;float:left;background:url(../../index.html) top left no-repeat;margin:5px 0 0 -5px;border-bottom:2px solid #ff0000;}
+.galleryBx4 ul li {min-height:auto !important;padding-bottom:0 !important}
+
+.motivationalbx2 p{min-height:120px}
+
+@media(max-width:767px){
+.newTagSpan{ height: 16px; left: 73px; top: 13px}
+.adviceArrow{ display: none}
+.dropdownLink:hover .subDropDown{ display: none}
+.mainLinks .subDropDown li a{padding: 0 19px 0 5px}
+.lifeAtMb .detailHolder{ min-height: 249px}
+.lifeAtMb .detailHolder{ margin-top: 17px}
+.sitLogo{ display: block; margin: 0 auto}
+.navbar-default .navbar-toggle{ border:none}
+.navbar-toggle{ margin-right: 0}
+.navbar-toggle .icon-bar{width: 3px; height: 3px}
+.siteNav .icon-bar{width: 20px; height: 3px}
+.navbar-default .navbar-toggle .icon-bar{ background-color: #000}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: none}
+.mainLinks ul{ padding: 0; width: 230px;}
+.mainLinks ul li{ float: none; padding: 10px 0}
+.navbar-collapse{ position: absolute; right: 0; background: #fff;box-shadow:-1px 5px 5px #ccc; z-index: 1}
+.collapse.in{ right: 0}
+.subMenuArrow{ display: none;}
+.subDropDown{ position: static; padding-top: 4px}
+.dropDownEffect{border:none; box-shadow: none;}
+.headLine{ font-size: 20px; margin-top: 24px}
+.headLine span{ font-size: 14px; line-height: 22px}
+.boxRow{ margin-bottom: 0}
+.mobileBox{ padding-left:0; padding-right: 0; margin-bottom: 20px}
+.sm-line-1, .sm-line-2, .sm-line-3, .sm-line-4, .line-1, .line-2, .line-3, .line-4{ margin-top: 10px; margin-bottom: 15px; float: left;}
+.imgBox{ height: 198px}
+.imgBox h3, .sm-imgBox h3{ font-size: 22px; text-shadow:2px 1px 1px #000;}
+.imgBox p, .sm-imgBox p{text-shadow:2px 1px 1px #000; margin-bottom: 7px}
+
+.sm-imgBox{ height: 225px}
+.imgBox, .sm-imgBox{ background-size: cover}
+.smBox{ margin-bottom: 5px}
+.emailUs{ padding-left: 0; padding-right: 0}
+.dark{ background-color: rgba(0,0,0, 0.8)}
+.footerBlock {padding: 6px 0 2px;}
+.heroBanner{background-position: center top; height:133px; background-size:cover; width:100%;}
+.banner10{padding-top:32px;line-height: 20px;font-size:18px;}
+.tag-line{font-size: 16px;text-align: right;padding:15px 11px 0 0;    font-family: Visby CF Demi, sans-serif;}
+.socialBlock .text{position:static;}
+.socialBlock .follow{margin-bottom:16px;}
+.detailHolder h3.oneline{ height: 20px;}
+.lifeAtMb .detailHolder{ margin-top: 40px}
+.profileHolder{ margin-top: 0}
+.imgHolder{ margin-top: 30px}
+.piller .modal-body{ padding: 0 10px 0 18px}
+.piller .modal-lg{ width: auto;}
+.piller .popUpDetail{ width: auto;}
+.popUpDetail h4{margin-bottom:30px;}
+.popUpDetail h3{ padding-top: 20px}
+.carousel-control.left{ top: -53px; left: 25%; background: none}
+.carousel-control.right{ top: -53px; right: 25%; background: none}
+.timeL-name{ text-align: center}
+.timeL-img{ text-align: center}
+.timeL-tm{ text-align: center;}
+.timeL-tm p{ background: #fff}
+.timeL-name h3{ background: #fff; margin-bottom: 25px}
+.rightQuote2, .rightQuote1{ display: none}
+.m-center{ text-align: center;}
+.timeLineRow{ margin-bottom: 0}
+.timeLine{ margin-top: 0}
+.timeLine:after{ top: 5%}
+.whyWork .imgHolder{ height: 211px;}
+.whyWork .imgHolder img{ height: 100%}
+.whyWork .detailHolder h3{ margin-top: 20px}
+.navHeight{ height: 1px; overflow: hidden;}
+.tabNav{ background:#fff;box-shadow: 1px 4px 6px #a8a8a8;left: 1px;position: absolute;top: 0; left: -500px;z-index: 1}
+.tabNav li{float: none; border-bottom: none; padding: 0 33px 0 23px}
+.subLine{ margin-bottom: 20px}
+.popUpDetail h3 span{color: #666;display: block;font-size: 14px;margin-top: 4px}
+.jobPopUp .modal-body{ padding: 0 10px}
+.tabs li.active:after{font-weight: bold;content: ""; border-color:transparent; border-style: solid; border-width: 6px; border-top-color:#333; display: inline-block; position: absolute; right: 20px; top: 20px}
+header.main-header .logo {padding:6px 0 0 70px;}
+
+
+
+
+
+.mob-boxes{margin-top:60px;}
+
+
+
+
+}
+
+
+
+
+
+@media(min-width:768px){
+.imgBox{height: 281px; background-size: cover}
+.sm-line-1, .sm-line-2, .sm-line-3, .sm-line-4, .line-1, .line-2, .line-3, .line-4{ margin-top: 10px; margin-bottom: 15px; float: left;}
+.sm-imgBox{ height: 250px}
+.sm-imgBox{ background-size: cover}
+.mainLinks ul li {padding-left: 20px; font-size: 13px}
+.moreDDLi .subDropDown{ left: -98px}
+.moreDDLi .subMenuArrow{ left: 130px}
+.dark{ background-color: rgba(0,0,0, 0.8)}
+.footerBlock {padding: 6px 0 2px;}
+.videoGallary{ width: 700px}
+.tabNav li{ padding: 0 17px}
+.piller .popUpDetail{ text-align: justify;}
+.carousel-control.left{left: -15px; top: 18%}
+.carousel-control.right{right: -15px; top: 18%}
+.detailHolder h3{font-size: 20px}
+.timeL-img img{ width: 100%; height:100%;}
+.vieJobAlign{ margin-top: 22px}
+.viewJobText{ margin-top: 25px}
+.popUpDetail{ height: 350px}
+.whyWork .popUpDetail{ height: 325px}
+.popUpDetail h3 span{color: #666;display: inline-block;font-size: 14px;margin-top: 4px}
+.mainLinks ul li a {font-size: 12px}
+
+
+}
+
+@media(max-width:768px) and (min-width:320px){
+
+.hot-opening{ float: left ; margin: 20px 0px;}
+.hot-opening .hot-title{
+display: inline-block;
+}
+
+.banner1{
+	background-position: -240px 0px !important;
+padding-left: 165px;
+padding-right: 10px;
+}
+
+.hot-opening a{
+display: inline-block;
+padding: 4px 6px;
+letter-spacing: -0.5px;
+}
+
+
+
+
+}
+.jobContainer .nav-tabs a .uiTitle{font-size: 12px !important;
+padding: 0px 8px !important;}
+.modal-body{
+padding-bottom: 20px !important;
+}
+
+@media(min-width:992px){	
+.mainLinks ul li a {font-size: 14px}
+.videoGallary{ width: 900px}
+.imgBox{ height: 301px}
+.sm-imgBox{ height: 285px}
+.line-1{ margin-top: 16px}
+.line-2{ margin-top: 44px}
+.line-3{ margin-top: 74px}
+.line-4{ margin-top: 95px}
+
+.sm-line-1{ margin-top: 26px}
+.sm-line-2{ margin-top: 44px}
+.sm-line-3{ margin-top: 65px}
+.sm-line-4{ margin-top: 86px}
+.mainLinks ul li {float: left;list-style-type: none;padding-left: 33px}
+.moreDDLi .subDropDown {left: 15px}
+.moreDDLi .subMenuArrow {left: 20px}
+.dark{ background-color: rgba(0,0,0, 0.8)}
+.footerBlock {padding: 28px 0 2px;}
+.tabNav li{ padding: 0 33px}
+.piller .modal-lg{ width: 940px}
+.piller .modal-body{ padding: 0 82px 33px}
+.piller .popUpImg{ float: left;}
+.piller .popUpDetail{float: right;text-align: justify;width: 100%;}
+.piller .popUpDetail h3{text-transform: uppercase;margin-top: 0}
+.piller .popUpDetail h3 span{color: #666;display: block;font-size: 14px;margin-top: 4px}
+.piller .popUpDetail p{ color: #666; line-height: 22px; padding-right: 20px}
+.carousel-control.left{ opacity: 1; background-color:#d4d1d2; left: -82px; width: 58px; height: 58px; top: 36%}
+.carousel-control.right{ opacity: 1; background-color:#d4d1d2; right: -82px; width: 58px; height: 58px; top: 36%}
+.detailHolder h3{ height: 50px}
+.whyWork .detailHolder h3{font-size: 24px}
+.vieJobAlign{ margin-top: 36px}
+.viewJobText{ margin-top: 37px}
+}
+
+@media(min-width:1200px){
+.container{ max-width:1200px;}
+}
+
+
+.videoWrapper iframe {
+height:100%;
+left: 0;
+max-width: 100%;
+position: absolute;
+width: 100%;
+padding-bottom:35px;
+right:0;display:block;
+}
+
+.videoWrapper {
+height: 0;
+padding-bottom: 45.9%;
+padding-top: 25px;
+position: relative;
+}
+
+.paragraphlife{ padding-bottom:0px}
+
+
+.hot-opening{
+float: right;
+border:1px dashed #f9e282;
+border-radius: 4px;
+line-height: 22px;
+padding-right: 12px;
+color: #000;
+
+}
+
+
+.hot-opening .hot-title{
+background-color: #ffe623;
+display:inline-block;
+padding: 0px 8px;
+color: #000;
+font-weight: 800;
+margin-right: 10px;
+text-align: center;
+}
+
+.jobContainer .nav-tabs{ background: #f7f7f7; border: 0px;}
+
+.jobContainer .nav-tabs a, .jobContainer .nav-tabs a:hover{
+line-height: 44px;
+padding: 0px;
+border: none;
+}
+.jobContainer .nav-tabs a .uiTitle{ margin: 0px; font-size: 14px; color: #040404; padding: 0px; line-height: 44px; padding: 0px 15px; font-family: Visby CF Demi, sans-serif;}
+.jobContainer .nav-tabs li.active a{border: none;    font-family: Visby CF Demi, sans-serif;
+}
+
+.jobContainer .nav-tabs li.active a .uiTitle{box-shadow: inset 0px -4px #990000;}
+
+
+.jobContainer .tab-content{
+padding-top: 10px;
+}
+
+.hot-pipe{color: #e1e1e1;}
+
+.hot-tab-1, .hot-tab-2, .hot-tab-3, .hot-tab-4{
+text-decoration: underline;
+
+}
+
+.hot-tab-1:hover, .hot-tab-2:hover, .hot-tab-3:hover{
+color: #b49141 !important;
+}
+
+
+
+.socialpost2 {margin:40px 0 55px 0}
+.socialpost2 ul{margin:0;padding:0;}
+.socialpost2 ul li{margin:0 16px 0 0;padding:0;list-style:none;display:inline;}
+.socialpost2 ul li:last-child{margin:0;}
+.socialpost2 ul li img {box-shadow:0px 0px 12px 1px rgba(119, 119, 119, 0.30);}
+.lifeMB {margin:10px 0 40px 0;color: #606060}
+.lifeMB .one {float:left;width:31%;margin:0 2% 0 0}
+.lifeMB .one h3 {font-size: 16px; font-weight: 600; font-style: normal;color: #303030;margin:0 0 12px 0}
+.lifeMB .one p {font-size: 14px; font-weight: normal; font-style: normal;  line-height: 1.43; letter-spacing: normal; color: #606060;}
+.lifeMB .one ol {margin:10px  0;padding:0;}
+.lifeMB .one ol li{margin:0 0 0 15px;padding:0 0 12px 5px;font-size: 14px;color: #606060;list-style: decimal;}
+.lifeMB .one a {color: #b49141;  font-size: 14px;  font-weight: 600;margin:6px 0 0;display:block;}
+.blueprint {position:absolute;z-index:222;margin: auto;left: 50%;transform: translateX(-50% );margin:175px 0 0 0}
+
+
+.galleryBx .owl-controls .owl-buttons div {display:inline-block;font-size:30px;height:24px;width:24px;line-height:24px;margin: 0;opacity: 1;padding:0;position: absolute;text-align: center;font-weight: 400;z-index: 9999;cursor: pointer;}
+.galleryBx .owl-controls .owl-next {position: absolute;right:27px;top:45%;}
+.galleryBx .owl-controls .owl-prev {position: absolute;left:14px;top:45%;}
+.galleryBx ul li{box-shadow: 0 4px 12px 0 rgba(48, 48, 48, 0.2);	background-color: #219fd6;padding: 26px 15px 0 10px;color:#fff;min-height: 320px;}
+.brandinglogo {margin: auto;display:block;text-align: center}
+.brandinglogo img {margin:0 0 10px 0}
+.brandinglogo .img1 {margin:0 0 40px 0}
+.brandinglogo .img2 {margin:56px 0 40px 24px}
+.brandingTxt p {margin:0 5px 0 62px;font-size:14px;font-weight:400;font-style:normal;line-height:1.43;color: #fff;}
+.brandingTxt h3 {margin:0 0 12px 62px;font-weight: 600;font-style: normal;color: #ffffff;text-transform: uppercase;}
+.brandingTxt span {margin:9px 0 8px 62px;display:block}
+.c1 {background-color: #b49141;}
+.brandingimg img.img2{margin:0 0 16px 16px;float: left;}
+.nopadding {padding-left: 0 !important;padding-right: 0 !important;}
+.galleryBx ul li.item1 {background:#b49141}
+.galleryBx ul li {min-height:324px;}
+.galleryBx ul li.item1 h3{margin:0 0 12px 32px;}
+.galleryBx ul li.item1 p {margin:0 0 5px 34px;}
+.brandingTxt h3 {margin:0 0 12px 62px;font-weight: 600;font-style: normal;color: #ffffff;text-transform: uppercase;}
+.galleryBx ul li.item1 span {margin:9px 0 8px 34px;}
+.brandingimg {    margin: 0 0 0 18px;}
+.brandingTxt {margin: 0 0 0 -18px;}
+.galleryBx1 {margin:20px 0 0;}
+.galleryBx1 ul li {background:#88c639;min-height:652px;margin:0 0 0px 0}
+.galleryBx1 h3 {font-size: 18px;font-weight: 600;font-style: normal;text-transform: uppercase;margin:0 0 12px 0}
+.galleryBx1 .one {width:210px;float: left;}
+.galleryBx1 .two {width:446px;float: left;margin: 0 0 0 9px;}
+.galleryBx1 .three {width:395px;float: left;margin:0 0 0 32px}
+.leftbox {margin: 65px auto 32px auto; clear: both; text-align: center;}
+.leftbox1 {margin: 0 auto 20px 22px; clear: both; text-align: center;}
+.leftbox1 img {margin:0 0 81px 0}
+
+.leftbox2 {margin:35px auto 32px 6px; clear: both; text-align: center;}
+.leftbox2 img {margin:0 23px 0 0; vertical-align: text-top;}
+.leftbox2 .second {margin:11px 0 0px 6px}
+
+.leftbox3 {margin:-1px auto 0 auto;clear: both; text-align: center;}
+.leftbox3 img {margin:-38px 26px 10px 8px}
+.leftbox3 img.last {margin:2px 2px 0 3px}
+.three h3.last {text-transform:inherit;font-size: 18px;font-weight: 600;font-style: normal;font-stretch: normal;  
+	line-height: normal;letter-spacing: normal;color: #ffffff;margin:-3px 0 15px 0}
+	.leftbox img {margin:0 0 16px 0}
+
+/* owl-carousel css: start */
+.owl-carousel .owl-wrapper:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.owl-carousel{display: none;position: relative;width:100%;-ms-touch-action: pan-y;}
+.owl-carousel .owl-wrapper{display: none;position: relative;-webkit-transform: translate3d(0px, 0px, 0px);}
+.owl-carousel .owl-wrapper-outer{overflow: hidden;position: relative;width: 100%;}
+.owl-carousel .owl-wrapper-outer.autoHeight{-webkit-transition: height 500ms ease-in-out;-moz-transition: height 500ms ease-in-out;-ms-transition: height 500ms ease-in-out;-o-transition: height 500ms ease-in-out;transition: height 500ms ease-in-out;}
+.owl-carousel .owl-item{float: left;}
+.owl-controls .owl-page,.owl-controls .owl-buttons div{cursor: pointer;}
+.owl-controls {-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/* fix */
+.owl-carousel  .owl-wrapper,.owl-carousel  .owl-item{-webkit-backface-visibility: hidden;-moz-backface-visibility:hidden;
+-ms-backface-visibility:hidden;-webkit-transform: translate3d(0,0,0);-moz-transform: translate3d(0,0,0);-ms-transform: translate3d(0,0,0);}
+/* owl-carousel css: End */
+
+#excellence {margin:65px 0 -15px 0;}
+#excellence .owl-controls .owl-buttons div {border-radius:0;color: red;display:inline-block;font-size:54px;height: 126px;margin: 0;opacity: 1;padding:0;position: absolute;}
+#excellence .owl-controls .owl-next {position: absolute;right:27px;top:45%;}
+#excellence .owl-controls .owl-prev {position: absolute;left:14px;top:45%;}
+.disabled {opacity: 0.4 !important;cursor:text !important}
+
+.mtxt  img{margin:0 0 0 10px}
+
+.galleryBx4 ul li {margin:0 0 30px 0;background:#e3851d;   background-image: linear-gradient(#e3851d, #e3851d, #fafad7); /* Standard syntax (must be last) */padding:26px 0 0 5px}
+  
+  
+.brandinglogo1 {margin: auto;display:block;text-align: center}
+.brandinglogo1 span {text-transform:uppercase;font-size: 16px; font-weight: 600;display:block;margin:20px 0 20px 17px}
+.brandingTxt1 p {margin:0 5px 0 15px; font-size: 14px;line-height: 1.43; letter-spacing: normal;  color: #ffffff;}
+.brandingTxt1 h3 {margin:0 0 12px 15px;}
+.brandingTxt1 p.txt {  font-size: 14px; line-height: 2; letter-spacing: normal; color: #ffffff;margin:20px 0 0 15px}
+
+.festivalBx {margin:38px 0 0px 0;}
+
+.festivalBx .card {background:#fff;margin:0px 0 25px 20px;position:relative}
+.festivalBx .card h4 {background:#ff4701;padding:10px 0;text-align:center;font-size:18px;margin:0;}
+.festivalBx .card p{color:#333;padding:5px 10px 18px 50px;line-height:20px;}
+.festivalBx .card h4.green {background:#1e5102;}
+.festivalBx .card h4:before {content:"";position:absolute;top:-6px;left:-13px; background:url(../../index.html) no-repeat; height: 82px;width:95px;z-index: 99999;background-size: 100%;}
+.festivalBx .card h4.green:before {background:url(../../index.html) no-repeat;background-size: 100%;height: 151px;width: 55px;top: 0px;left: 0px;}
+
+.motivationalbx {margin:0 0 0 20px}
+.motivationalbx h4 span.one {float:left;width:20px;}
+.motivationalbx h4 span { font-size: 18px; font-weight: 600; line-height: 26px; color: #ffffff;margin:30px 0 15px 0;float:left;width:95%;}
+.motivationalbx h5{ font-size: 18px;font-weight: 600; line-height: 1.11; color: #303030;margin:20px 0 5px 0}
+.motivationalbx p{ font-size: 14px; font-weight: normal; line-height: 1.43; letter-spacing: normal;color: #303030;margin:0 0 15px 0}
+
+.motivationalbx1 {margin:10px 0 0 0}
+.motivationalbx1 h4{ font-size: 18px; font-weight: 600; line-height: 1.11; color: #303030;}
+.motivationalbx1 p{ font-size: 14px; font-weight: normal; line-height: 1.43; letter-spacing: normal;color: #303030;margin:0 0 15px 0}
+.motivationalbx1 img {float:left;margin:0 8px 25px 0}
+.motivationalbx1 .col-sm-4.col-xs-12 {margin:0 -31px 0 21px}
+
+.brandinglogo2 span {color:#000000;font-size:17px;font-weight:600;margin:20px 0 0 20px}
+
+.acquisitionBx p {font-size: 16px; font-weight: 600;line-height: 1.5;color: #303030;margin:0 0 0 20px !important}
+.acquisitionBx ul {margin:40px 0 70px 20px;padding:0;}
+.acquisitionBx ul li {background:none;box-shadow:none;padding:0;margin:7px 0 7px 25px; font-size: 18px; font-weight: 600; letter-spacing: normal; color: #303030;position:relative}
+.acquisitionBx ul li:after {content:"";position:absolute;background:url(../../index.html) no-repeat;background-size: 100%;height: 18px;width: 18px;top: 6px;left: -26px;}
+.group1 {margin-top:8px;}
+
+.galleryBx4 ul li.last {    background-image: inherit;}
+
+.motivationalbx3 {margin:25px 0 10px 0}
+.festivalBx .card.last {margin:0 0 40px 20px;}
+
+.galleryBx4 ul li a {color:#fff;}
+.galleryBx4 ul li a:hover {color:#fff;text-decoration:none}
+	
+@media only screen and (min-width: 1900px) and (max-width: 1210px) {
+	.peopleweek p {width: 81.1%;}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	
+	.socialpost2 ul li {display: block;margin: auto auto 20px auto;text-align: center;width:100%;}
+	.lifeMB .one {width:100%}
+	.lifeMB .two {width:100%}
+	.lifeMB .three {width:100%}
+	.lifeMB .one h3 {margin:20px 0 12px 0}
+	.blueprint {margin:96% 0 0 0;left: 40%;transform: translateX(-60% );}
+	.blueprint img{width:96%;}
+	.stickToBottom {bottom:0;}
+	.brandinglogo .img1 {margin: 0 0 20px 0;}
+	.mtxt img {width:100%;margin:0;}
+	.galleryBx ul li {padding: 20px 15px;margin: 0 0 0 1px;}
+	.brandingTxt h3 {margin: 16px 0 12px 0;font-size: 15px;}
+	.brandingTxt p {margin:0;}
+.galleryBx .owl-controls .owl-prev {left:0}
+.galleryBx .owl-controls .owl-next {right:0}
+	.brandingimg img.img2 {margin: 0 4px 16px 4px;float: left;width: 47%;	}
+	.brandinglogo .img2 {margin: 0 0 30px 0;	width: 130px;}
+	.galleryBx ul li.item1 h3 {margin:0 0 12px 0;font-size: 15px;}
+	.galleryBx ul li.item1 p {margin:0}
+	.galleryBx ul li.item1 span {margin:9px 0 8px 0}
+	.galleryBx1 .one {float: none;text-align: center;margin: auto;width:100%}
+	.leftbox {margin:23px auto 18px auto}
+	.leftbox1 img {margin: 0 0 10px 0;}
+	.galleryBx1  img.img9 {width:100%}
+	.galleryBx1 .two {width: 100%;float: none;}
+	.galleryBx1 .three {float: none;width:100%;margin:0;}
+	.leftbox2 img {margin:0;}
+	.leftbox3 img{margin:-15px 0 15px 0}
+	.galleryBx1 .three {margin:15px 0 0;}
+	.timeLine {margin-top:40px;}
+	.timeL-tm.col-sm-5.col-xs-12.pL40 > p, .timeL-tm.col-sm-5.txt-right.col-sm-pull-7.col-xs-12 > p {padding:0 !important;}
+	.timeL-name h3 {font-size: 18px;padding: 4px 0;}
+	.galleryBx1 ul li {    min-height:100% !important}
+	.galleryBx1 {margin:20px -15px 0 -15px}
+	.leftbox2 .second {margin: 15px 0 0;}
+	.hot-opening .hot-title{display: block;margin-right:0;}
+	.timeL-name h3:before {content: ""; position: absolute;height: 22px;width: 1px;border-right: 1px solid #909090;margin: 40px 0 -3px 64px;}
+	.og-grid li:last-child {padding-left: 0 !important;}
+	.brandingTxt {margin:0;}
+	.brandingimg {margin:0;}
+	.hot-opening {padding-right: 0px;}
+	
+	.galleryBx4 ul li {padding:20px 10px}
+	.motivationalbx h4 span {margin:5px 0 5px 0;width:90%}
+	.motivationalbx {margin:0;}
+		.acquisitionBx ul {margin:15px 0}
+		.acquisitionBx p {margin:10px 0 0 !important}
+	.acquisitionBx ul li {padding:20px 7px}
+		.groupimg {padding:0 0 20px 0;max-width:100%;height: 210px;}
+		
+ .group1 {max-width:100%;height: 230px;}
+	.festivalBx .card {margin:0px 0 25px 0px}
+	.festivalBx .card.last {margin:0 0 10px 0}
+	.galleryBx4 ul li {box-shadow:inherit;}
+	.motivationalbx1 .col-sm-4.col-xs-12 {margin:0;}
+	.motivationalbx1 img {margin: 0 16px 25px 0;width: 30%;}
+	.motivationalbx2 p {min-height:auto;}
+	.peopleweek i {border:none;margin:20px 0 0;}
+	.peopleweek p {border:none;height: auto;width:100%;margin:0 !important;float:none;}
+
+.peopleweek {height:auto;margin:10px 0 0}
+.acquisitionBx ul li:after {top: 28px;}
+.festivalBx .card p {line-height: 21px;}
+.galleryBx ul li {min-height: 800px;}
+.fa-angle-left {left:0;}
+.fa-angle-right {right:0;}
+}

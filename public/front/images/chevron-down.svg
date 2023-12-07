@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="4px" viewBox="0 0 8 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>chevron-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,2.79289322 L1.35355339,0.146446609 C1.15829124,-0.0488155365 0.841708755,-0.0488155365 0.646446609,0.146446609 C0.451184464,0.341708755 0.451184464,0.658291245 0.646446609,0.853553391 L3.64644661,3.85355339 C3.84170876,4.04881554 4.15829124,4.04881554 4.35355339,3.85355339 L7.35355339,0.853553391 C7.54881554,0.658291245 7.54881554,0.341708755 7.35355339,0.146446609 C7.15829124,-0.0488155365 6.84170876,-0.0488155365 6.64644661,0.146446609 L4,2.79289322 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="News" transform="translate(-282.000000, -135.000000)">
+            <g id="Group-2" transform="translate(20.000000, 128.000000)">
+                <g id="chevron-down" transform="translate(262.000000, 7.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="COLOR/-white" mask="url(#mask-2)" fill="#FFFFFF">
+                        <g transform="translate(-2.000000, -4.000000)" id="Rectangle">
+                            <rect x="0" y="0" width="12" height="12"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

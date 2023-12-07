@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="28px" viewBox="0 0 16 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>chevron-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.039424,14 L0.894712003,24.144712 C0.14620711,24.8932169 0.14620711,26.1067831 0.894712003,26.855288 C1.6432169,27.6037929 2.8567831,27.6037929 3.605288,26.855288 L15.105288,15.355288 C15.8537929,14.6067831 15.8537929,13.3932169 15.105288,12.644712 L3.605288,1.144712 C2.8567831,0.39620711 1.6432169,0.39620711 0.894712003,1.144712 C0.14620711,1.8932169 0.14620711,3.1067831 0.894712003,3.855288 L11.039424,14 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_01" transform="translate(-1371.000000, -1482.000000)">
+            <g id="chevron-right" transform="translate(1371.000000, 1482.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="COLOR/-white" mask="url(#mask-2)" fill="#FFFFFF">
+                    <g transform="translate(-15.000000, -9.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="46" height="46"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
